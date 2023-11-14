@@ -1,0 +1,7 @@
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form1.resources
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+F:\train\term8\Communication systems\New folder\C#\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb

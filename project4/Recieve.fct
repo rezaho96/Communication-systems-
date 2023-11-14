@@ -1,0 +1,7 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Recieve.c" LINE:30
+lcd_init DSTACK_USAGE:1 DSTACK_LEVEL:1 FILE:"C:\cvavr\lib\lcd.lib" LINE:252
+_lcd_init_write DSTACK_USAGE:1 DSTACK_LEVEL:2 FILE:"C:\cvavr\lib\lcd.lib" LINE:234
+SPI_INT DSTACK_USAGE:12 DSTACK_LEVEL:14 FILE:"Recieve.c" LINE:14
+ftoa DSTACK_USAGE:13 DSTACK_LEVEL:27 FILE:"C:\cvavr\lib\stdlib.lib" LINE:959
+floor DSTACK_USAGE:4 DSTACK_LEVEL:31 FILE:"C:\cvavr\lib\math.lib" LINE:659
+ftrunc DSTACK_USAGE:4 DSTACK_LEVEL:35 FILE:"C:\cvavr\lib\math.lib" LINE:544

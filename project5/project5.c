@@ -1,0 +1,33 @@
+#include <io.h>
+#include <mega32.h>
+#include <delay.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+char str[10];
+ int n=0 ;
+interrupt [2] void isr_int0(void)
+{
+  UDR=255;
+}
+
+void main(void){
+
+UCSRB = 0x18;
+UCSRC = 0x86;
+UBRRL = 71;
+UBRRH = 0;
+
+DDRB = 0;
+DDRC = 255;
+GICR |= 1 << INT0;
+MCUCR |= 1<<ISC01;
+
+#asm("sei")
+while (1){   
+       gets(str,10);
+       n=atoi(str);
+       PORTC=n;
+       
+}
+}

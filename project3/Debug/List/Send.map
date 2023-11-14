@@ -1,0 +1,26 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x0260      10
+_seed                                                                             0x026A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Temperature                                                                       R4,R5        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0006A     15
+main                                                                              0x00079     51
+ftoa                                                                              0x000AC    205
+putchar                                                                           0x00179      7
+puts                                                                              0x00180     19
+ftrunc                                                                            0x00193     49
+floor                                                                             0x001C4     23
+strcpyf                                                                           0x001DB     13

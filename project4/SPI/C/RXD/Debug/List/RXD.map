@@ -1,0 +1,44 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+temp0                                                                             0x026F       4
+temp1                                                                             0x0273       4
+mytemp                                                                            0x0277       4
+D                                                                                 0x027B       4
+str                                                                               0x027F      10
+_seed                                                                             0x0289       4
+_base_y                                                                           0x028D       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SPI_INT                                                                           0x0007C    134
+main                                                                              0x00102     55
+ftoa                                                                              0x00139    207
+_lcd_delay_G102                                                                   0x00208      4
+_lcd_ready                                                                        0x0020C     17
+_lcd_write_nibble_G102                                                            0x0021D     10
+_lcd_write_data                                                                   0x00227     15
+_lcd_read_nibble_G102                                                             0x00236      9
+lcd_read_byte0_G102                                                               0x0023F      9
+lcd_gotoxy                                                                        0x00248     16
+lcd_clear                                                                         0x00258     19
+lcd_putchar                                                                       0x0026B     26
+lcd_puts                                                                          0x00285     17
+_long_delay_G102                                                                  0x00296      5
+_lcd_init_write_G102                                                              0x0029B     12
+lcd_init                                                                          0x002A7     51
+strcpyf                                                                           0x002DA     13
+ftrunc                                                                            0x002E7     49
+floor                                                                             0x00318     23

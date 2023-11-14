@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x0260      10
+_seed                                                                             0x026A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+n                                                                                 R4,R5        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+isr_int0                                                                          0x0006E      5
+main                                                                              0x00073     34
+atoi                                                                              0x00095     55
+getchar                                                                           0x000CC      4
+gets                                                                              0x000D0     47
+isdigit                                                                           0x000FF      9
+isspace                                                                           0x00108     11
